@@ -1,0 +1,6 @@
+a=input('Введіть слова через кому / пробіл')
+w=a.replace(',',' ').split()
+min=min(w,key=len)
+max=max(w,key=len)
+print('Найкоротше слово:',len(min))
+print('Найдовше слово:',len(max))
